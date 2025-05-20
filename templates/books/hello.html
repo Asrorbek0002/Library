@@ -1,4 +1,5 @@
 <!-- books/templates/books/book_list.html -->
+{% load static %}
 <h1>All books</h1>
 {% for book in book_list %}
 <ul>
@@ -8,3 +9,4 @@
 <li>ISBN: {{ book.isbn }}</li>
 </ul>
 {% endfor %}>
+
